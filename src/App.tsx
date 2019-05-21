@@ -59,6 +59,10 @@ const App: React.FC = () => {
 
   return (
     <div className="App container">
+      <input
+        className="form-control my-3"
+        placeholder="Type something here..."
+      />
       <table className="table table-striped">
         <thead>
           <tr>
