@@ -16,7 +16,6 @@ const App: React.FC = () => {
 
   useEffect(() => {
     const listener = (e: KeyboardEvent) => {
-      console.log(e);
       const newKeycodes = keycodes.concat([
         {
           id: new Date().getTime(),
